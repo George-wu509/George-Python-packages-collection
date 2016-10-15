@@ -16,8 +16,13 @@ This is George's favorate python packages collection with codes and documents. T
 
 
 
-4. sklearn
+4. Scikit-learn (sklearn) - Machine learning in Python
 --------------------------------
+- sklearn.preprocessing
+- sklearn.datasets
+- sklearn.pipeline
+- sklearn.svm  
+- sklearn.matrics
 
 
 5. scipy
