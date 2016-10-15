@@ -10,25 +10,25 @@
   - sklearn.base.`ClusterMixin` - Mixin class for all cluster estimators in scikit-learn.
   - sklearn.base.`RegressorMixin` - 	Mixin class for all regression estimators in scikit-learn
   - sklearn.base.`TransformerMixin` - Mixin class for all transformers in scikit-learn
-  - [Fn] sklearn.base.`clone`() - Constructs a new estimator with the same parameters
+  - [Fn] sklearn.base.`clone(estimator[, safe])` - Constructs a new estimator with the same parameters
   
 - 4.2 sklearn.`cluster` - **Clustering**
-  - sklearn.cluster.`AffinityPropagation` - Perform Affinity Propagation Clustering of data
-  - sklearn.cluster.`AgglomerativeClustering` - Agglomerative Clustering
-  - sklearn.cluster.`Birch` - Implements the Birch clustering algorithm.
-  - sklearn.cluster.`DBSCAN` - Perform DBSCAN clustering from vector array or distance matrix
-  - sklearn.cluster.`FeatureAgglomeration` - Agglomerate features
-  - sklearn.cluster.`KMeans` - K-Means clustering
-  - sklearn.cluster.`MiniBatchKMeans` - Mini-Batch K-Means clustering
-  - sklearn.cluster.`MeanShift` - Mean shift clustering using a flat kernel.
-  - sklearn.cluster.`SpectralClustering` - 	Apply clustering to a projection to the normalized laplacian
-  - [Fn] sklearn.cluster.`estimate_bandwidth`() - Estimate the bandwidth to use with the mean-shift algorithm.
-  - [Fn] sklearn.cluster.`k_means`() - K-means clustering algorithm
-  - [Fn] sklearn.cluster.`ward_tree`() - Ward clustering based on a Feature matrix
-  - [Fn] sklearn.cluster.`affinity_propagation`() - Perform Affinity Propagation Clustering of data
-  - [Fn] sklearn.cluster.`dbscan`() - Perform DBSCAN clustering from vector array or distance matrix
-  - [Fn] sklearn.cluster.`mean_shift`() - Perform mean shift clustering of data using a flat kernel
-  - [Fn] sklearn.cluster.`spectral_clustering`() - Apply clustering to a projection to the normalized laplacian
+  - sklearn.cluster.`AffinityPropagation([damping, ...])` - Perform Affinity Propagation Clustering of data
+  - sklearn.cluster.`AgglomerativeClustering([...])` - Agglomerative Clustering
+  - sklearn.cluster.`Birch([threshold, branching_factor, ...])` - Implements the Birch clustering algorithm.
+  - sklearn.cluster.`DBSCAN([eps, min_samples, metric, ...])` - Perform DBSCAN clustering from vector array or distance matrix
+  - sklearn.cluster.`FeatureAgglomeration([n_clusters, ...])` - Agglomerate features
+  - sklearn.cluster.`KMeans([n_clusters, init, n_init, ...])` - K-Means clustering
+  - sklearn.cluster.`MiniBatchKMeans([n_clusters, init, ...])` - Mini-Batch K-Means clustering
+  - sklearn.cluster.`MeanShift([bandwidth, seeds, ...])` - Mean shift clustering using a flat kernel.
+  - sklearn.cluster.`SpectralClustering([n_clusters, ...])` - 	Apply clustering to a projection to the normalized laplacian
+  - [Fn] sklearn.cluster.`estimate_bandwidth(X[, quantile, ...])` - Estimate the bandwidth to use with the mean-shift algorithm.
+  - [Fn] sklearn.cluster.`k_means(X, n_clusters[, init, ...])` - K-means clustering algorithm
+  - [Fn] sklearn.cluster.`ward_tree(X[, connectivity, ...])` - Ward clustering based on a Feature matrix
+  - [Fn] sklearn.cluster.`affinity_propagation(S[, ...])` - Perform Affinity Propagation Clustering of data
+  - [Fn] sklearn.cluster.`dbscan(X[, eps, min_samples, ...])` - Perform DBSCAN clustering from vector array or distance matrix
+  - [Fn] sklearn.cluster.`mean_shift(X[, bandwidth, seeds, ...])` - Perform mean shift clustering of data using a flat kernel
+  - [Fn] sklearn.cluster.`spectral_clustering(affinity[, ...])` - Apply clustering to a projection to the normalized laplacian
   
 - 4.3 sklearn.`cluster.bicluster` - **Biclustering**
   - sklearn.cluster.bicluster.`SpectralBiclustering` - Spectral biclustering
