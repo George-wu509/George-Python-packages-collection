@@ -10,25 +10,25 @@
   - sklearn.base.`ClusterMixin` - Mixin class for all cluster estimators in scikit-learn.
   - sklearn.base.`RegressorMixin` - 	Mixin class for all regression estimators in scikit-learn
   - sklearn.base.`TransformerMixin` - Mixin class for all transformers in scikit-learn
-  - [Fn] sklearn.base.`clone(estimator[, safe])` - Constructs a new estimator with the same parameters
+  - [Fn] sklearn.base.`clone` - Constructs a new estimator with the same parameters
   
 - 4.2 sklearn.`cluster` - **Clustering**
-  - sklearn.cluster.`AffinityPropagation([damping, ...])` - Perform Affinity Propagation Clustering of data
-  - sklearn.cluster.`AgglomerativeClustering([...])` - Agglomerative Clustering
-  - sklearn.cluster.`Birch([threshold, branching_factor, ...])` - Implements the Birch clustering algorithm.
-  - sklearn.cluster.`DBSCAN([eps, min_samples, metric, ...])` - Perform DBSCAN clustering from vector array or distance matrix
-  - sklearn.cluster.`FeatureAgglomeration([n_clusters, ...])` - Agglomerate features
-  - sklearn.cluster.`KMeans([n_clusters, init, n_init, ...])` - K-Means clustering
-  - sklearn.cluster.`MiniBatchKMeans([n_clusters, init, ...])` - Mini-Batch K-Means clustering
-  - sklearn.cluster.`MeanShift([bandwidth, seeds, ...])` - Mean shift clustering using a flat kernel.
-  - sklearn.cluster.`SpectralClustering([n_clusters, ...])` - 	Apply clustering to a projection to the normalized laplacian
-  - [Fn] sklearn.cluster.`estimate_bandwidth(X[, quantile, ...])` - Estimate the bandwidth to use with the mean-shift algorithm.
-  - [Fn] sklearn.cluster.`k_means(X, n_clusters[, init, ...])` - K-means clustering algorithm
-  - [Fn] sklearn.cluster.`ward_tree(X[, connectivity, ...])` - Ward clustering based on a Feature matrix
-  - [Fn] sklearn.cluster.`affinity_propagation(S[, ...])` - Perform Affinity Propagation Clustering of data
-  - [Fn] sklearn.cluster.`dbscan(X[, eps, min_samples, ...])` - Perform DBSCAN clustering from vector array or distance matrix
-  - [Fn] sklearn.cluster.`mean_shift(X[, bandwidth, seeds, ...])` - Perform mean shift clustering of data using a flat kernel
-  - [Fn] sklearn.cluster.`spectral_clustering(affinity[, ...])` - Apply clustering to a projection to the normalized laplacian
+  - sklearn.cluster.`AffinityPropagation` - Perform Affinity Propagation Clustering of data
+  - sklearn.cluster.`AgglomerativeClustering` - Agglomerative Clustering
+  - sklearn.cluster.`Birch` - Implements the Birch clustering algorithm.
+  - sklearn.cluster.`DBSCAN` - Perform DBSCAN clustering from vector array or distance matrix
+  - sklearn.cluster.`FeatureAgglomeration` - Agglomerate features
+  - sklearn.cluster.`KMeans` - K-Means clustering
+  - sklearn.cluster.`MiniBatchKMeans` - Mini-Batch K-Means clustering
+  - sklearn.cluster.`MeanShift` - Mean shift clustering using a flat kernel.
+  - sklearn.cluster.`SpectralClustering` - 	Apply clustering to a projection to the normalized laplacian
+  - [Fn] sklearn.cluster.`estimate_bandwidth` - Estimate the bandwidth to use with the mean-shift algorithm.
+  - [Fn] sklearn.cluster.`k_means` - K-means clustering algorithm
+  - [Fn] sklearn.cluster.`ward_tree` - Ward clustering based on a Feature matrix
+  - [Fn] sklearn.cluster.`affinity_propagation` - Perform Affinity Propagation Clustering of data
+  - [Fn] sklearn.cluster.`dbscan` - Perform DBSCAN clustering from vector array or distance matrix
+  - [Fn] sklearn.cluster.`mean_shift` - Perform mean shift clustering of data using a flat kernel
+  - [Fn] sklearn.cluster.`spectral_clustering` - Apply clustering to a projection to the normalized laplacian
   
 - 4.3 sklearn.`cluster.bicluster` - **Biclustering**
   - sklearn.cluster.bicluster.`SpectralBiclustering` - Spectral biclustering
@@ -51,32 +51,31 @@
   - [Fn] sklearn.covariance.`EmpiricalCovariance` - S
 
 - 4.5 sklearn.`model_selection` - **Model Selection**
-  - sklearn.model_selection.`KFold([n_splits, shuffle, ...])` - K-Folds cross-validator
-  - sklearn.model_selection.`GroupKFold([n_splits])` - K-fold iterator variant with non-overlapping groups
-  - sklearn.model_selection.`StratifiedKFold([n_splits, ...])` - Stratified K-Folds cross-validator
-  - sklearn.model_selection.`LeaveOneGroupOut()` - Leave One Group Out cross-validator
-  - sklearn.model_selection.`LeavePGroupsOut(n_groups)` - Leave P Group(s) Out cross-validator
-  - sklearn.model_selection.`LeaveOneOut()` - Leave-One-Out cross-validator
-  - sklearn.model_selection.`LeavePOut(p)` - Leave-P-Out cross-validator
-  - sklearn.model_selection.`ShuffleSplit([n_splits, ...])` - Random permutation cross-validator
-  - sklearn.model_selection.`GroupShuffleSplit([...])` - Shuffle-Group(s)-Out cross-validation iterator
-  - sklearn.model_selection.`StratifiedShuffleSplit([...])` - Stratified ShuffleSplit cross-validator
-  - sklearn.model_selection.`PredefinedSplit(test_fold)` - Predefined split cross-validator
-  - sklearn.model_selection.`TimeSeriesSplit([n_splits])`- Time Series cross-validator    
+  - sklearn.model_selection.`KFold` - K-Folds cross-validator
+  - sklearn.model_selection.`GroupKFold` - K-fold iterator variant with non-overlapping groups
+  - sklearn.model_selection.`StratifiedKFold` - Stratified K-Folds cross-validator
+  - sklearn.model_selection.`LeaveOneGroupOut` - Leave One Group Out cross-validator
+  - sklearn.model_selection.`LeavePGroupsOut` - Leave P Group(s) Out cross-validator
+  - sklearn.model_selection.`LeaveOneOut` - Leave-One-Out cross-validator
+  - sklearn.model_selection.`LeavePOut` - Leave-P-Out cross-validator
+  - sklearn.model_selection.`ShuffleSplit` - Random permutation cross-validator
+  - sklearn.model_selection.`GroupShuffleSplit` - Shuffle-Group(s)-Out cross-validation iterator
+  - sklearn.model_selection.`StratifiedShuffleSplit` - Stratified ShuffleSplit cross-validator
+  - sklearn.model_selection.`PredefinedSplit` - Predefined split cross-validator
+  - sklearn.model_selection.`TimeSeriesSplit`- Time Series cross-validator    
     - **Splitter Functions** 
-  - sklearn.model_selection.`train_test_split(*arrays, ...)` - Split arrays or matrices into random train and test subsets
+  - sklearn.model_selection.`train_test_split` - Split arrays or matrices into random train and test subsets
     - **Hyper­parameter optimizers**  
-  - sklearn.model_selection.`GridSearchCV(estimator, ...)` - Exhaustive search over specified parameter values for an   
-estimator.
-  - sklearn.model_selection.`RandomizedSearchCV(... [, ...])` - Randomized search on hyper parameters.
-  - sklearn.model_selection.`ParameterGrid(param_grid)` - Grid of parameters with a discrete number of values for each.
-  - sklearn.model_selection.`ParameterSampler(...[, ...])` - Generator on parameters sampled from given distributions.  
+  - sklearn.model_selection.`GridSearchCV` - Exhaustive search over specified parameter values for an estimator.
+  - sklearn.model_selection.`RandomizedSearchCV` - Randomized search on hyper parameters.
+  - sklearn.model_selection.`ParameterGrid` - Grid of parameters with a discrete number of values for each.
+  - sklearn.model_selection.`ParameterSampler` - Generator on parameters sampled from given distributions.  
     - **Model validation**   
-  - sklearn.model_selection.`cross_val_score(estimator, X)` - Evaluate a score by cross-validation
-  - sklearn.model_selection.`cross_val_predict(estimator, X)` - Generate cross-validated estimates for each input data point
-  - sklearn.model_selection.`permutation_test_score(...)` - Evaluate the significance of a cross-validated score with permutations
-  - klearn.model_selection.`learning_curve(estimator, X, y)` - Learning curve.
-  - sklearn.model_selection.`validation_curve(estimator, ...)` - Validation curve.
+  - sklearn.model_selection.`cross_val_score` - Evaluate a score by cross-validation
+  - sklearn.model_selection.`cross_val_predict` - Generate cross-validated estimates for each input data point
+  - sklearn.model_selection.`permutation_test_score` - Evaluate the significance of a cross-validated score with permutations
+  - klearn.model_selection.`learning_curve` - Learning curve.
+  - sklearn.model_selection.`validation_curve` - Validation curve.
 
   
 - 4.6 sklearn.`datasets` - **Datasets**  
