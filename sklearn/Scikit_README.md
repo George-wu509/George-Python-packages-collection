@@ -34,8 +34,8 @@
   - sklearn.cluster.bicluster.`SpectralBiclustering` - Spectral biclustering
   - sklearn.cluster.bicluster.`SpectralCoclustering` - Spectral Co-Clustering algorithm
 
-- 4.4 sklearn.`covariance` - **Covariance Estimators**
-The sklearn.covariancemodule includes methods and algorithms to robustly estimate the covariance of features given a set of points. The precision matrix defined as the inverse of the covariance is also estimated. Covariance estimation is closely related to the theory of Gaussian Graphical Models.
+- 4.4 sklearn.`covariance` - **Covariance Estimators**  
+The sklearn.covariancemodule includes methods and algorithms to robustly estimate the covariance of features given a set of points. The precision matrix defined as the inverse of the covariance is also estimated. Covariance estimation is closely related to the theory of Gaussian Graphical Models.  
   - sklearn.covariance.`EmpiricalCovariance` - Maximum likelihood covariance estimator
   - sklearn.covariance.`EllipticEnvelope` - An object for detecting outliers in a Gaussian distributed dataset.
   - sklearn.covariance.`GraphLasso` - Sparse inverse covariance estimation with an l1-penalized estimator
