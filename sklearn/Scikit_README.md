@@ -10,7 +10,7 @@
   - sklearn.base.`ClusterMixin` - Mixin class for all cluster estimators in scikit-learn.
   - sklearn.base.`RegressorMixin` - 	Mixin class for all regression estimators in scikit-learn
   - sklearn.base.`TransformerMixin` - Mixin class for all transformers in scikit-learn
-  - [Functions] sklearn.base.clone() - Constructs a new estimator with the same parameters
+  - [Fn] sklearn.base.`clone`() - Constructs a new estimator with the same parameters
   
 - 4.2 sklearn.`cluster` - **Clustering**
   - sklearn.cluster.`AffinityPropagation` - Perform Affinity Propagation Clustering of data
@@ -22,6 +22,13 @@
   - sklearn.cluster.`MiniBatchKMeans` - Mini-Batch K-Means clustering
   - sklearn.cluster.`MeanShift` - Mean shift clustering using a flat kernel.
   - sklearn.cluster.`SpectralClustering` - 	Apply clustering to a projection to the normalized laplacian
+  - [Fn] sklearn.cluster.`estimate_bandwidth`() - Estimate the bandwidth to use with the mean-shift algorithm.
+  - [Fn] sklearn.cluster.`k_means`() - K-means clustering algorithm
+  - [Fn] sklearn.cluster.`ward_tree`() - Ward clustering based on a Feature matrix
+  - [Fn] sklearn.cluster.`affinity_propagation`() - Perform Affinity Propagation Clustering of data
+  - [Fn] sklearn.cluster.`dbscan`() - Perform DBSCAN clustering from vector array or distance matrix
+  - [Fn] sklearn.cluster.`mean_shift`() - Perform mean shift clustering of data using a flat kernel
+  - [Fn] sklearn.cluster.`spectral_clustering`() - Apply clustering to a projection to the normalized laplacian
   
 - 4.3 sklearn.`cluster.bicluster` - **Biclustering**
 - 4.4 sklearn.`covariance` - **Covariance Estimators** 
