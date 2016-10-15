@@ -63,7 +63,7 @@
   - sklearn.model_selection.`StratifiedShuffleSplit([...])` - Stratified ShuffleSplit cross-validator
   - sklearn.model_selection.`PredefinedSplit(test_fold)` - Predefined split cross-validator
   - sklearn.model_selection.`TimeSeriesSplit([n_splits])`- Time Series cross-validator
-  - [Splitter Functions] 
+  -- **Splitter Functions** 
   - sklearn.model_selection.`train_test_split(*arrays, ...)` - Split arrays or matrices into random train and test subsets
   - [Hyper­parameter optimizers] 
   - sklearn.model_selection.`GridSearchCV(estimator, ...)` - Exhaustive search over specified parameter values for an estimator.
