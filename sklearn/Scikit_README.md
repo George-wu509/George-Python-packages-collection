@@ -10,6 +10,7 @@
   - sklearn.base.`ClusterMixin` - Mixin class for all cluster estimators in scikit-learn.
   - sklearn.base.`RegressorMixin` - 	Mixin class for all regression estimators in scikit-learn
   - sklearn.base.`TransformerMixin` - Mixin class for all transformers in scikit-learn
+  - [Functions] sklearn.base.clone() - Constructs a new estimator with the same parameters
   
 - 4.2 sklearn.`cluster` - **Clustering**
   - sklearn.cluster.`AffinityPropagation` - Perform Affinity Propagation Clustering of data
@@ -56,21 +57,3 @@
 - 4.34 sklearn.`tree` - **Decision Trees**  
 - 4.35 sklearn.`utils` - **Utilities**  
 
-
-
-
-5. scipy
---------------------------------
-
-
-6. cv2
---------------------------------
-
-
-
-7. matplotlib
---------------------------------
-
-
-8. pil 
---------------------------------
