@@ -63,16 +63,19 @@
   - sklearn.model_selection.`StratifiedShuffleSplit([...])` - Stratified ShuffleSplit cross-validator
   - sklearn.model_selection.`PredefinedSplit(test_fold)` - Predefined split cross-validator
   - sklearn.model_selection.`TimeSeriesSplit([n_splits])`- Time Series cross-validator
-  - [Splitter Functions] sklearn.model_selection.`train_test_split(*arrays, ...)` - Split arrays or matrices into random train and test subsets
-  - [Hyper­parameter optimizers] sklearn.model_selection.`GridSearchCV(estimator, ...)` - Exhaustive search over specified parameter values for an estimator.
-  - [Hyper­parameter optimizers] sklearn.model_selection.`RandomizedSearchCV(... [, ...])` - Randomized search on hyper parameters.
-  - [Hyper­parameter optimizers] sklearn.model_selection.`ParameterGrid(param_grid)` - Grid of parameters with a discrete number of values for each.
-  - [Hyper­parameter optimizers] sklearn.model_selection.`ParameterSampler(...[, ...])` - Generator on parameters sampled from given distributions.
-  - [Model validation] sklearn.model_selection.`cross_val_score(estimator, X)` - Evaluate a score by cross-validation
-  - [Model validation] sklearn.model_selection.`cross_val_predict(estimator, X)` - Generate cross-validated estimates for each input data point
-  - [Model validation] sklearn.model_selection.`permutation_test_score(...)` - Evaluate the significance of a cross-validated score with permutations
-  - [Model validation] sklearn.model_selection.`learning_curve(estimator, X, y)` - Learning curve.
-  - [Model validation] sklearn.model_selection.`validation_curve(estimator, ...)` - Validation curve.
+  - [Splitter Functions] 
+  - sklearn.model_selection.`train_test_split(*arrays, ...)` - Split arrays or matrices into random train and test subsets
+  - [Hyper­parameter optimizers] 
+  - sklearn.model_selection.`GridSearchCV(estimator, ...)` - Exhaustive search over specified parameter values for an estimator.
+  - sklearn.model_selection.`RandomizedSearchCV(... [, ...])` - Randomized search on hyper parameters.
+  - sklearn.model_selection.`ParameterGrid(param_grid)` - Grid of parameters with a discrete number of values for each.
+  - sklearn.model_selection.`ParameterSampler(...[, ...])` - Generator on parameters sampled from given distributions.
+  - [Model validation] 
+  - sklearn.model_selection.`cross_val_score(estimator, X)` - Evaluate a score by cross-validation
+  - sklearn.model_selection.`cross_val_predict(estimator, X)` - Generate cross-validated estimates for each input data point
+  - sklearn.model_selection.`permutation_test_score(...)` - Evaluate the significance of a cross-validated score with permutations
+  - klearn.model_selection.`learning_curve(estimator, X, y)` - Learning curve.
+  - sklearn.model_selection.`validation_curve(estimator, ...)` - Validation curve.
 
   
 - 4.6 sklearn.`datasets` - **Datasets**  
