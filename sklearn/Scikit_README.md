@@ -48,7 +48,6 @@
   - sklearn.covariance.`shrunk_covariance` - Calculates a covariance matrix shrunk on the diagonal
   - sklearn.covariance.`oas` - Estimate covariance with the Oracle Approximating Shrinkage algorithm.
   - sklearn.covariance.`graph_lasso` -l1-penalized covariance estimator
-  - [Fn] sklearn.covariance.`EmpiricalCovariance` - S
 
 - 4.5 sklearn.`model_selection` - **Model Selection**
   - sklearn.model_selection.`KFold` - K-Folds cross-validator
@@ -73,12 +72,62 @@
     - **Model validation**   
   - sklearn.model_selection.`cross_val_score` - Evaluate a score by cross-validation
   - sklearn.model_selection.`cross_val_predict` - Generate cross-validated estimates for each input data point
-  - sklearn.model_selection.`permutation_test_score` - Evaluate the significance of a cross-validated score with permutations
+  - sklearn.model_selection.`permutation_test_score` - Evaluate the significance of a cross-validated score withpermutations
   - klearn.model_selection.`learning_curve` - Learning curve.
   - sklearn.model_selection.`validation_curve` - Validation curve.
 
-  
 - 4.6 sklearn.`datasets` - **Datasets**  
+    - **Loaders** 
+  - sklearn.datasets.`clear_data_home` - 
+  - sklearn.datasets.`get_data_home` - 
+  - sklearn.datasets.`fetch_20newsgroups` - 
+  - sklearn.datasets.`fetch_20newsgroups_vectorized` - 
+  - sklearn.datasets.`load_boston` - 
+  - sklearn.datasets.`load_breast_cancer` - 
+  - sklearn.datasets.`load_diabetes` - 
+  - sklearn.datasets.`load_digits` - 
+  - sklearn.datasets.`load_files` - 
+  - sklearn.datasets.`load_iris` - 
+  - sklearn.datasets.`fetch_lfw_pairs` - 
+  - sklearn.datasets.`fetch_lfw_people` - 
+  - sklearn.datasets.`load_linnerud` - 
+  - sklearn.datasets.`mldata_filename` - 
+  - sklearn.datasets.`fetch_mldata` - 
+  - sklearn.datasets.`fetch_olivetti_faces` - 
+  - sklearn.datasets.`fetch_california_housing` - 
+  - sklearn.datasets.`fetch_covtype` - 
+  - sklearn.datasets.`fetch_kddcup99` - 
+  - sklearn.datasets.`fetch_rcv1` - 
+  - sklearn.datasets.`load_mlcomp` - 
+  - sklearn.datasets.`load_sample_image` - 
+  - sklearn.datasets.`load_sample_images` - 
+  - sklearn.datasets.`fetch_species_distributions` - 
+  - sklearn.datasets.`load_svmlight_file` - 
+  - sklearn.datasets.`load_svmlight_files` - 
+  - sklearn.datasets.`dump_svmlight_file` - 
+    - **Sample generator** 
+  - sklearn.datasets.`make_blobs` - 
+  - sklearn.datasets.`make_classification` - 
+  - sklearn.datasets.`make_circles` - 
+  - sklearn.datasets.`make_friedman1` - 
+  - sklearn.datasets.`make_friedman2` - 
+  - sklearn.datasets.`make_friedman3` - 
+  - sklearn.datasets.`make_gaussian_quantiles` - 
+  - sklearn.datasets.`make_hastie_10_2` - 
+  - sklearn.datasets.`make_low_rank_matrix` - 
+  - sklearn.datasets.`make_moons` - 
+  - sklearn.datasets.`make_multilabel_classification` - 
+  - sklearn.datasets.`make_regression` - 
+  - sklearn.datasets.`make_s_curve` - 
+  - sklearn.datasets.`make_sparse_coded_signal` - 
+  - sklearn.datasets.`make_sparse_spd_matrix` - 
+  - sklearn.datasets.`make_sparse_uncorrelated` - 
+  - sklearn.datasets.`make_spd_matrix` - 
+  - sklearn.datasets.`make_swiss_roll` - 
+  - sklearn.datasets.`make_biclusters` - 
+  - sklearn.datasets.`make_checkerboard` - 
+
+
 - 4.7 sklearn.`decomposition` - **Matrix Decomposition**  
 - 4.8 sklearn.`dummy` - **Dummy estimators**
 - 4.9 sklearn.`ensemble` - **Ensemble Methods**  
