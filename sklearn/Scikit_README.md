@@ -35,7 +35,6 @@
   - sklearn.cluster.bicluster.`SpectralCoclustering` - Spectral Co-Clustering algorithm
 
 - 4.4 sklearn.`covariance` - **Covariance Estimators**  
-The sklearn.covariancemodule includes methods and algorithms to robustly estimate the covariance of features given a set of points. The precision matrix defined as the inverse of the covariance is also estimated. Covariance estimation is closely related to the theory of Gaussian Graphical Models.  
   - sklearn.covariance.`EmpiricalCovariance` - Maximum likelihood covariance estimator
   - sklearn.covariance.`EllipticEnvelope` - An object for detecting outliers in a Gaussian distributed dataset.
   - sklearn.covariance.`GraphLasso` - Sparse inverse covariance estimation with an l1-penalized estimator
@@ -51,8 +50,31 @@ The sklearn.covariancemodule includes methods and algorithms to robustly estimat
   - sklearn.covariance.`graph_lasso` -l1-penalized covariance estimator
   - [Fn] sklearn.covariance.`EmpiricalCovariance` - S
 
+- 4.5 sklearn.`model_selection` - **Model Selection**
+  - sklearn.model_selection.`KFold([n_splits, shuffle, ...])` - K-Folds cross-validator
+  - sklearn.model_selection.`GroupKFold([n_splits])` - K-fold iterator variant with non-overlapping groups
+  - sklearn.model_selection.`StratifiedKFold([n_splits, ...])` - Stratified K-Folds cross-validator
+  - sklearn.model_selection.`LeaveOneGroupOut()` - Leave One Group Out cross-validator
+  - sklearn.model_selection.`LeavePGroupsOut(n_groups)` - Leave P Group(s) Out cross-validator
+  - sklearn.model_selection.`LeaveOneOut()` - Leave-One-Out cross-validator
+  - sklearn.model_selection.`LeavePOut(p)` - Leave-P-Out cross-validator
+  - sklearn.model_selection.`ShuffleSplit([n_splits, ...])` - Random permutation cross-validator
+  - sklearn.model_selection.`GroupShuffleSplit([...])` - Shuffle-Group(s)-Out cross-validation iterator
+  - sklearn.model_selection.`StratifiedShuffleSplit([...])` - Stratified ShuffleSplit cross-validator
+  - sklearn.model_selection.`PredefinedSplit(test_fold)` - Predefined split cross-validator
+  - sklearn.model_selection.`TimeSeriesSplit([n_splits])`- Time Series cross-validator
+  - [Splitter Functions] sklearn.model_selection.`train_test_split(*arrays, ...)` - Split arrays or matrices into random train and test subsets
+  - [Hyper­parameter optimizers] sklearn.model_selection.`GridSearchCV(estimator, ...)` - Exhaustive search over specified parameter values for an estimator.
+  - [Hyper­parameter optimizers] sklearn.model_selection.`RandomizedSearchCV(... [, ...])` - Randomized search on hyper parameters.
+  - [Hyper­parameter optimizers] sklearn.model_selection.`ParameterGrid(param_grid)` - Grid of parameters with a discrete number of values for each.
+  - [Hyper­parameter optimizers] sklearn.model_selection.`ParameterSampler(...[, ...])` - Generator on parameters sampled from given distributions.
+  - [Model validation] sklearn.model_selection.`cross_val_score(estimator, X)` - Evaluate a score by cross-validation
+  - [Model validation] sklearn.model_selection.`cross_val_predict(estimator, X)` - Generate cross-validated estimates for each input data point
+  - [Model validation] sklearn.model_selection.`permutation_test_score(...)` - Evaluate the significance of a cross-validated score with permutations
+  - [Model validation] sklearn.model_selection.`learning_curve(estimator, X, y)` - Learning curve.
+  - [Model validation] sklearn.model_selection.`validation_curve(estimator, ...)` - Validation curve.
 
-- 4.5 sklearn.`model_selection` - **Model Selection**  
+  
 - 4.6 sklearn.`datasets` - **Datasets**  
 - 4.7 sklearn.`decomposition` - **Matrix Decomposition**  
 - 4.8 sklearn.`dummy` - **Dummy estimators**
