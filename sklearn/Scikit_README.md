@@ -31,7 +31,27 @@
   - [Fn] sklearn.cluster.`spectral_clustering`() - Apply clustering to a projection to the normalized laplacian
   
 - 4.3 sklearn.`cluster.bicluster` - **Biclustering**
-- 4.4 sklearn.`covariance` - **Covariance Estimators** 
+  - sklearn.cluster.bicluster.`SpectralBiclustering` - Spectral biclustering
+  - sklearn.cluster.bicluster.`SpectralCoclustering` - Spectral Co-Clustering algorithm
+
+- 4.4 sklearn.`covariance` - **Covariance Estimators**
+The sklearn.covariancemodule includes methods and algorithms to robustly estimate the covariance of features given a set of points. The precision matrix defined as the inverse of the covariance is also estimated. Covariance estimation is closely related to the theory of Gaussian Graphical Models.
+  - sklearn.covariance.`EmpiricalCovariance` - Maximum likelihood covariance estimator
+  - sklearn.covariance.`EllipticEnvelope` - An object for detecting outliers in a Gaussian distributed dataset.
+  - sklearn.covariance.`GraphLasso` - Sparse inverse covariance estimation with an l1-penalized estimator
+  - sklearn.covariance.`GraphLassoCV` - Sparse inverse covariance w/ cross-validated choice of the l1 penalty
+  - sklearn.covariance.`LedoitWolf` - LedoitWolf Estimator
+  - sklearn.covariance.`MinCovDet` - Minimum Covariance Determinant (MCD): robust estimator of covariance
+  - sklearn.covariance.`OAS` - Oracle Approximating Shrinkage Estimator
+  - sklearn.covariance.`ShrunkCovariance` - Covariance estimator with shrinkage
+  - sklearn.covariance.`empirical_covariance` - Computes the Maximum likelihood covariance estimator
+  - sklearn.covariance.`ledoit_wolf(` - Estimates the shrunk Ledoit-Wolf covariance matrix
+  - sklearn.covariance.`shrunk_covariance` - Calculates a covariance matrix shrunk on the diagonal
+  - sklearn.covariance.`oas` - Estimate covariance with the Oracle Approximating Shrinkage algorithm.
+  - sklearn.covariance.`graph_lasso` -l1-penalized covariance estimator
+  - [Fn] sklearn.covariance.`EmpiricalCovariance` - S
+
+
 - 4.5 sklearn.`model_selection` - **Model Selection**  
 - 4.6 sklearn.`datasets` - **Datasets**  
 - 4.7 sklearn.`decomposition` - **Matrix Decomposition**  
